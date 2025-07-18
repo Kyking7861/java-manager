@@ -39,12 +39,15 @@ Java Manager 是一个用于 Windows 平台的图形化 Java JDK版本环境管�
 
 1. 点击“添加 Java 版本”按钮，选择 JDK 目录
 <img width="1258" height="789" alt="image" src="https://github.com/user-attachments/assets/37a00461-ecbb-4fef-bbfb-919fc27584be" />
+
 2. 输入版本号（如 jdk8、jdk11）
 <img width="773" height="480" alt="image" src="https://github.com/user-attachments/assets/9a3f5c81-e2ec-4768-802d-bb7ffb1fac80" />
-4. 若有独立 JRE 目录，选择“是”并指定 JRE 目录，否则选择“否”
+
+3. 若有独立 JRE 目录，选择“是”并指定 JRE 目录，否则选择“否”
 <img width="777" height="266" alt="image" src="https://github.com/user-attachments/assets/e8d33cc0-bb1f-4749-834a-cf0b4656a33f" />
 <img width="1258" height="789" alt="image" src="https://github.com/user-attachments/assets/c12cfda5-c578-4575-aa85-557ed8b2f5a4" />
-5. 添加后会在列表中显示 JDK 和 JRE 路径
+
+4. 添加后会在列表中显示 JDK 和 JRE 路径
 <img width="773" height="480" alt="image" src="https://github.com/user-attachments/assets/79baece4-4d93-48f7-b813-fbf93f5d9c74" />
 
 ### 切换 Java 版本（.jar自动关联，支持不同版本兼容jar包双击打开）
