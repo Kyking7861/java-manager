@@ -48,7 +48,9 @@ Java Manager 是一个用于 Windows 平台的图形化 Java JDK版本环境管�
 <img width="1258" height="789" alt="image" src="https://github.com/user-attachments/assets/c12cfda5-c578-4575-aa85-557ed8b2f5a4" />
 
 4. 添加后会在列表中显示 JDK 和 JRE 路径
-<img width="773" height="480" alt="image" src="https://github.com/user-attachments/assets/79baece4-4d93-48f7-b813-fbf93f5d9c74" />
+
+<img width="773" height="480" alt="image" src="https://github.com/user-attachments/assets/3f20ddfa-c8b1-4073-9db9-2c17e92e1659" />
+
 
 ### 切换 Java 版本（.jar自动关联，支持不同版本兼容jar包双击打开）
 
