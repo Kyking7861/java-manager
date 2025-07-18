@@ -2,7 +2,7 @@
 
 ## 项目简介
 
-Java Manager 是一个用于 Windows 平台的图形化 Java JDK版本环境管理工具，支持多版本 JDK/JRE 的添加、切换，并自动配置 JAVA_HOME、Path 及 .jar 文件关联。
+Java Manager 是一个用于 Windows 平台的图形化 Java JDK版本环境管理工具，支持多版本 JDK/JRE 环境变量的添加、切换，自动配置 JAVA_HOME、Path 及 .jar 文件关联。
 
 ## 主要功能
 
@@ -38,11 +38,16 @@ Java Manager 是一个用于 Windows 平台的图形化 Java JDK版本环境管�
 ### 添加 Java 版本
 
 1. 点击“添加 Java 版本”按钮，选择 JDK 目录
+<img width="1258" height="789" alt="image" src="https://github.com/user-attachments/assets/37a00461-ecbb-4fef-bbfb-919fc27584be" />
 2. 输入版本号（如 jdk8、jdk11）
-3. 若有独立 JRE 目录，选择“是”并指定 JRE 目录，否则选择“否”
-4. 添加后会在列表中显示 JDK 和 JRE 路径
+<img width="773" height="480" alt="image" src="https://github.com/user-attachments/assets/9a3f5c81-e2ec-4768-802d-bb7ffb1fac80" />
+4. 若有独立 JRE 目录，选择“是”并指定 JRE 目录，否则选择“否”
+<img width="777" height="266" alt="image" src="https://github.com/user-attachments/assets/e8d33cc0-bb1f-4749-834a-cf0b4656a33f" />
+<img width="1258" height="789" alt="image" src="https://github.com/user-attachments/assets/c12cfda5-c578-4575-aa85-557ed8b2f5a4" />
+5. 添加后会在列表中显示 JDK 和 JRE 路径
+<img width="773" height="480" alt="image" src="https://github.com/user-attachments/assets/79baece4-4d93-48f7-b813-fbf93f5d9c74" />
 
-### 切换 Java 版本
+### 切换 Java 版本（.jar自动关联，支持不同版本兼容jar包双击打开）
 
 1. 在列表中选择要切换的版本
 2. 点击“切换到选中版本”按钮
@@ -51,14 +56,9 @@ Java Manager 是一个用于 Windows 平台的图形化 Java JDK版本环境管�
    - 检查并追加 Path 中的 `%JAVA_HOME%\bin`
    - 修改 .jar 文件关联到当前 JDK/JRE 的 javaw.exe
 
-### 删除 Java 版本
+### 删除 管理的Java JDK版本目录
 
 - 选中列表中的版本，点击“删除选中版本”即可
-
-### 界面示意
-
-<img width="785" height="491" alt="image" src="https://github.com/user-attachments/assets/7187cc0b-9bb1-426d-acc3-e63c5fa8b143" />
-
 
 ## 注意事项
 
