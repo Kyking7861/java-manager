@@ -2,7 +2,7 @@
 
 ## 项目简介
 
-Java Manager 是一个用于 Windows 平台的图形化 Java 版本环境管理工具，支持多版本 JDK/JRE 的添加、切换，并自动配置 JAVA_HOME、Path 及 .jar 文件关联。
+Java Manager 是一个用于 Windows 平台的图形化 Java JDK版本环境管理工具，支持多版本 JDK/JRE 的添加、切换，并自动配置 JAVA_HOME、Path 及 .jar 文件关联。
 
 ## 主要功能
 
